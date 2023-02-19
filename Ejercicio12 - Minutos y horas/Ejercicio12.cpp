@@ -1,4 +1,4 @@
-// 12. Hacer un programa para ingresar un valor que estar√° expresado en minutos. 
+// 12. Hacer un programa para ingresar un valor que estar· expresado en minutos. 
 //     Si los minutos superan los 60, pasar el valor a horas, de lo contrario dejarlo en minutos. 
 //     Mostrar el resultado en pantalla aclarando si se muestran minutos u horas.
 
@@ -15,20 +15,26 @@ int main()
     cout << "Ingrese la cantidad de minutos: ";
     cin >> M;
 
-    if (M >= 60) {
+    if (M >= 60)
+    {
         H = M / 60;
-        if (H == 1) {
+        if (H == 1)
+        {
             cout << "\n" << H << " hora." << endl;
         }
-        else {
+        else
+        {
             cout << "\n" << H << " horas." << endl;
         }
     }
-    else {
-        if (M == 1) {
+    else
+    {
+        if (M == 1)
+        {
             cout << "\n" << M << " minuto." << endl;
         }
-        else {
+        else
+        {
             cout << "\n" << M << " minutos." << endl;
         }
     }

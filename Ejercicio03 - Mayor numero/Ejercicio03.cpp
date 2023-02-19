@@ -1,5 +1,5 @@
-// 3. Hacer un programa para ingresar dos n√∫meros y que luego emita por pantalla el mayor de ellos o un 
-//    cartel aclaratorio ‚ÄúSon iguales‚Äù en el caso de que as√≠ sea.
+// 3. Hacer un programa para ingresar dos n˙meros y que luego emita por pantalla el mayor de ellos o un 
+//    cartel aclaratorio ìSon igualesî en el caso de que asÌ sea.
 
 #include <iostream>
 
@@ -16,15 +16,19 @@ int main()
     cout << "Ingrese el segundo numero: ";
     cin >> B;
 
-    if (A >= B) {
-        if (A > B) {
+    if (A >= B)
+    {
+        if (A > B)
+        {
             cout << "\nEl mayor es: " << A << endl;
         }
-        else {
+        else
+        {
             cout << "\nAmbos numeros son iguales" << endl;
         }
     }
-    else {
+    else
+    {
         cout << "\nEl mayor es: " << B << endl;
     }
 

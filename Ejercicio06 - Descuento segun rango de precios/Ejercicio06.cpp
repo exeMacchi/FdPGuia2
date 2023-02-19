@@ -1,8 +1,8 @@
-// 6. Una casa de videojuegos otorga un descuento dependiendo del importe de la compra realizada seg√∫n 
+// 6. Una casa de videojuegos otorga un descuento dependiendo del importe de la compra realizada seg˙n 
 //    los siguientes valores:
-//       ‚Ä¢ Si el importe es menor a ARS 1000, no hay descuento.
-//       ‚Ä¢ Si el importe es ARS 1000 o m√°s pero menor a ARS 5000, aplica un descuento del 10 %.
-//       ‚Ä¢ Si el importe es ARS 5000 o m√°s, aplica un descuento del 18 % .
+//       ï Si el importe es menor a ARS 1000, no hay descuento.
+//       ï Si el importe es ARS 1000 o m·s pero menor a ARS 5000, aplica un descuento del 10 %.
+//       ï Si el importe es ARS 5000 o m·s, aplica un descuento del 18 % .
 //    Hacer un programa para ingresar un importe de venta y luego muestre por pantalla el importe 
 //    final con el descuento que corresponda.
 
@@ -21,13 +21,16 @@ int main()
     cout << "Introduzca el importe: $";
     cin >> I;
 
-    if (I >= 1000 && I < 5000) {
+    if (I >= 1000 && I < 5000)
+    {
         IF = I * D1;
     }
-    else if (I >= 5000) {
+    else if (I >= 5000)
+    {
         IF = I * D2;
     }
-    else {
+    else
+    {
         IF = I;
     }
 

@@ -1,4 +1,4 @@
-// 10. Hacer un programa para ingresar cuatro nÃºmeros y luego mostrar por pantalla cuÃ¡les son mayores a 100.
+// 10. Hacer un programa para ingresar cuatro números y luego mostrar por pantalla cuáles son mayores a 100.
 
 #include <iostream>
 #include <string>
@@ -22,59 +22,76 @@ int main()
     cout << "Ingrese el cuarto numero: ";
     cin >> D;
 
-    if (A > 100) {
+    if (A > 100)
+    {
         As = "el primero";
         Con++;
     }
-    else {
+    else
+    {
         As = "";
     }
-    if (B > 100) {
-        if (Con == 1) {
+    if (B > 100)
+    {
+        if (Con == 1)
+        {
             Bs = ", el segundo";
         }
-        else {
+        else
+        {
             Bs = "el segundo";
         }
         Con++;
     }
-    else {
+    else
+    {
         Bs = "";
     }
-    if (C > 100) {
-        if (Con >= 1) {
+    if (C > 100)
+    {
+        if (Con >= 1)
+        {
             Cs = ", el tercero";
         }
-        else {
+        else
+        {
             Cs = "el tercero";
         }
         Con++;
     }
-    else {
+    else
+    {
         Cs = "";
     }
-    if (D > 100) {
-        if (Con >= 1) {
+    if (D > 100)
+    {
+        if (Con >= 1)
+        {
             Ds = " y el cuarto";
         }
-        else {
+        else
+        {
             Ds = "el cuarto";
         }
         Con++;
     }
-    else {
+    else
+    {
         Ds = "";
     }
 
     May = As + Bs + Cs + Ds;
 
-    if (Con > 1) {
+    if (Con > 1)
+    {
         cout << "\nNumeros mayores a 100: " << May << "." << endl;
     }
-    else if (Con > 0) {
+    else if (Con > 0)
+    {
         cout << "\nEl numero mayor a 100 es: " << May << "." << endl;
     }
-    else {
+    else
+    {
         cout << "\nNingun numero es mayor a 100." << endl;
     }
 

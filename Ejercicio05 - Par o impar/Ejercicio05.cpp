@@ -1,4 +1,4 @@
-// 5. Hacer un programa para ingresar un nÃºmero y mostrar por pantalla un cartel aclaratorio si el mismo es PAR o IMPAR.
+// 5. Hacer un programa para ingresar un número y mostrar por pantalla un cartel aclaratorio si el mismo es PAR o IMPAR.
 
 #include <iostream>
 
@@ -13,10 +13,12 @@ int main()
     cout << "Ingrese un numero: ";
     cin >> N;
 
-    if (N % 2 == 0) {
+    if (N % 2 == 0)
+    {
         cout << "\nEl numero es par." << endl;
     }
-    else {
+    else
+    {
         cout << "\nEl numero es impar." << endl;
     }
 

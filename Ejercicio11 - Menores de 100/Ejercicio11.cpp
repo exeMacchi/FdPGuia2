@@ -1,4 +1,4 @@
-// 11. Hacer un programa para ingresar cuatro nÃºmeros y luego mostrar por pantalla cuÃ¡ntos son menores a 100.
+// 11. Hacer un programa para ingresar cuatro números y luego mostrar por pantalla cuántos son menores a 100.
 
 #include <iostream>
 #include <string>
@@ -22,20 +22,25 @@ int main()
     cout << "Ingrese el cuarto numero: ";
     cin >> D;
 
-    if (A < 100) {
+    if (A < 100)
+    {
         Con++;
     }
-    if (B < 100) {
+    if (B < 100)
+    {
         Con++;
     }
-    if (C < 100) {
+    if (C < 100)
+    {
         Con++;
     }
-    if (D < 100) {
+    if (D < 100)
+    {
         Con++;
     }
 
-    switch (Con) {
+    switch (Con)
+    {
     case 1:
         Men = "Solo un numero es menor a 100.";
         break;

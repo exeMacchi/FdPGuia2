@@ -1,4 +1,4 @@
-// 8. Hacer un programa para ingresar cuatro nÃºmeros distintos y luego mostrar por pantalla el menor de ellos.
+// 8. Hacer un programa para ingresar cuatro números distintos y luego mostrar por pantalla el menor de ellos.
 
 #include <iostream>
 
@@ -19,17 +19,21 @@ int main()
     cout << "Ingrese el cuarto numero: ";
     cin >> D;
 
-    if (A < B) {
+    if (A < B)
+    {
         men = A;
     }
-    else {
+    else
+    {
         men = B;
     }
 
-    if (C < men) {
+    if (C < men)
+    {
         men = C;
     }
-    if (D < men) {
+    if (D < men)
+    {
         men = D;
     }
 

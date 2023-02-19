@@ -1,5 +1,5 @@
-// 1. Hacer un programa para ingresar un nÃºmero y luego se emita por pantalla un cartel aclaratorio si 
-//    â€œEs mayor a 10â€ o â€œNo es mayor a 10â€.
+// 1. Hacer un programa para ingresar un número y luego se emita por pantalla un cartel aclaratorio si 
+//    “Es mayor a 10” o “No es mayor a 10”.
 
 #include <iostream>
 
@@ -13,13 +13,16 @@ int main()
     cout << "Ingrese un numero: ";
     cin >> N;
 
-    if (N > 10) {
+    if (N > 10)
+    {
         cout << "\n" << N << " es mayor a 10." << endl;
     }
-    else if (N < 10) {
+    else if (N < 10)
+    {
         cout << "\n" << N << " es menor a 10." << endl;
     }
-    else {
+    else
+    {
         cout << "\n" << N << " es igual a 10." << endl;
     }
 

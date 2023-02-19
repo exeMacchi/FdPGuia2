@@ -1,4 +1,4 @@
-// 7. Hacer un programa para ingresar cuatro nÃºmeros distintos y luego mostrar por pantalla el mayor de ellos.
+// 7. Hacer un programa para ingresar cuatro números distintos y luego mostrar por pantalla el mayor de ellos.
 
 #include <iostream>
 
@@ -19,18 +19,22 @@ int main()
     cout << "Ingrese el cuarto numero: ";
     cin >> D;
 
-    if (A > B) {
+    if (A > B)
+    {
         May = A;
     }
-    else {
+    else
+    {
         May = B;
     }
 
-    if (C > May) {
+    if (C > May)
+    {
         May = C;
     }
-    
-    if (D > May) {
+
+    if (D > May)
+    {
         May = D;
     }
 
